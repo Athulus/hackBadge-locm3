@@ -7,6 +7,7 @@ You will have to fetch the libopencm3 submodule by running:
 
 - git submodule init
 - git submodule update
+
 You compile the needed part of the library and the project firmware by invoking "make" in the toplevel directory.
 
 Executing `make flash` will try to use arm-none-eabi-gdb to connect ta a Black Magic Probe and upload the firmware to your target.
